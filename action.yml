@@ -1,0 +1,16 @@
+name: Extract status links
+description: Github action to extract links from statuses
+author: 2e3s
+inputs:
+  token:
+    description: The value of a token secret.
+    required: true
+  template:
+    description: |
+      The markdown template for the comment. Links are specified in the format {regexp=text % text}
+      so that {example\.com=[link](%)} may be replaced by [link](https://example.com/path).
+      All links that matches the regexp will be substituted.
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

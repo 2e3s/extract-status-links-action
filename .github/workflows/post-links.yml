@@ -1,0 +1,17 @@
+name: "post-links"
+on:
+  status
+
+jobs:
+  post_links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          template: |
+            ## Links
+
+            <!---jenkins\.server/build=- [The build](%)--->
+            <!---jenkins\.server/test=- [Tests](%)--->
