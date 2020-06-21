@@ -44,4 +44,4 @@ jobs:
             <!---jenkins\.server/build=- [The build](%)--->
             <!---jenkins\.server/test=- [Tests](%)--->
 ```
-The example is [here](https://github.com/2e3s/extract-status-links-action/pull/1).
+The example is [here](https://github.com/2e3s/extract-status-links-action/pull/2).
