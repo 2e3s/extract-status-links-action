@@ -1,3 +1,14 @@
+[![Status][ico-github-actions]][link-github]
+[![Latest Version][ico-version]][link-github]
+[![License][ico-license]][link-license]
+
+[ico-github-actions]: https://github.com/2e3s/extract-status-links-action/workflows/build-test/badge.svg
+[ico-version]: https://img.shields.io/github/tag/2e3s/extract-status-links-action.svg?label=latest
+[ico-license]: https://img.shields.io/badge/License-MIT-blue.svg
+
+[link-github]: https://github.com/2e3s/extract-status-links-action
+[link-license]: LICENSE
+
 # Extract status links
 
 Many workflows use Github's [statuses](https://developer.github.com/v3/repos/statuses/)

@@ -1,6 +1,9 @@
 name: Extract status links
-description: Github action to extract links from statuses
+description: Github action to extract links from statuses and post them
 author: 2e3s
+branding:
+  icon: 'external-link'
+  color: 'blue'
 inputs:
   token:
     description: The value of a token secret.
